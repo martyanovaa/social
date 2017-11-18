@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Social Survays</title>
+	<link rel="shortcut icon" href="favicon (1).ico" type="ico">
+</head>
+<body bgcolor="#E6E6FA">
+	<center><h1>SOCIAL SURVAYS</h1>
+		<h2>ON THE TOPIC: PERSONALITY</h2></center>
+		<br>
+<h4><b>1.Как часто Вы проходите соц. опросы?</b></h4>
+<select>
+<option value="often">Часто</option>
+<option value="rarely">Редко</option>
+<option value="never">Никогда</option>
+</select>
+  <hr>
+  <form action="handler.php">
+   <p><b>2.Какой у Вас тип темперамента?</b></p>
+    <p><input name="character" type="radio" value="holerik">Холерик</p>
+    <p><input name="character" type="radio" value="flegmatik">Флегматик</p>
+    <p><input name="character" type="radio" value="sangvinik" checked>Сангвиник</p>
+    <p><input name="character" type="radio" value="melanholik" checked>Меланхолик</p>
+    <p><input name="character" type="radio" value="zatrotv" checked>Затрудняюсь ответить</p>
+    <p><input type="submit" value="Проголосовать"></p>
+  </form> 
+  <hr>
+   <form method="post" action="input5.php">
+   <p><b>Вы верите предсказаниям гороскопов?</b></p>
+   <p><input type="checkbox" name="option1" value="a1" checked>Да<Br>
+   <input type="checkbox" name="option2" value="a2">Иногда совподает<Br>
+   <input type="checkbox" name="option3" value="a3">Нет<Br></p> 
+   <p><input type="submit" value="Проголосовать"></p>
+  </form>
+  <form action="textarea1.php" method="post">
+    <p><b>Ваш знак гороскопа?</b></p>
+    <p><textarea rows="3" cols="30" name="text"></textarea></p>
+    <p><input type="submit" value="Отправить"></p>
+  </form><br>
+  <hr>
+  <h4>Какие подарки Вы любите получать? (Загрузите фото подарков)</h4>
+  <input type="file">
+  <hr><br>
+  <h4>Любите ли Вы фотографировать? (Загрузите любимое фото)</h4>
+  <input type="file"><br>
+  <hr>
+  <h4>Сколько времени Вам требуется чтобы собраться на учебу/работу?</h4>
+  <p><textarea rows="3" cols="30" name="text"></textarea></p>
+    <p><input type="submit" value="Отправить"></p><br>
+    <hr>
+    <h4><b>Какие напитки предпочитаете?</b></h4>
+
+<p><input type="radio" name="drink">Вода</p>
+<p><input type="radio" name="drink">Кофе/чай</p>
+<p><input type="radio" name="drink">Сладкие напитки</p>
+<p><input type="radio" name="drink">Ничего из вышеперечисленного</p>
+ <p><input type="submit" value="Проголосовать"></p><br>
+ <hr>
+ <h4>Напишите список Ваших любимых книг</h4>
+ <p><textarea rows="5" cols="35" name="text"></textarea></p>
+    <p><input type="submit" value="Отправить"></p><br>
+   <hr>
+   <center>
+   	<h4>Впишите Ваши данные и отправьте нам результат</h4>
+   <p><b>Ваше имя</b></p>
+    <p><textarea rows="2" cols="30" name="text"></textarea></p>
+    <p><b>Ваша почта</b></p>
+    <p><textarea rows="2" cols="30" name="text"></textarea></p>
+    <p><input type="submit" value="Отправить"></p>
+</center><br>
+<hr>
+<h3><p><font color="red">Если Вам понравился наш опрос поделитесь с ним друзьями!</font></p></h3>
+<h5>SOCIAL SURVEYS, 2017</h5>
+</body>
+</html>
